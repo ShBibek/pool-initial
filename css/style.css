@@ -1,0 +1,120 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+.background{
+	margin:0px 50px;
+	width:1200px;
+	height:500px;
+	background-color:orange;
+}
+
+.board{
+	position: relative;
+	width: 770px;
+	height: 430px;
+	background:url('../images/final-board.png');
+	float: left;
+	top: 38px;
+	display: block;
+}
+.blueBall{
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	border-radius: 12px;
+	top: 0px;
+	left: 0px;
+	background:url("../images/blue-ball.png");
+}
+.redBall{
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	border-radius: 12px;
+	top: 0px;
+	left: 0px;
+	background:url("../images/zred1.png");
+}
+.whiteBall{
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	border-radius: 12px;
+	top: 0px;
+	left: 0px;
+	background-color:white; 
+}
+.blackBall{
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	border-radius: 12px;
+	top: 0px;
+	left: 0px;
+	background-color: black;
+}
+
+.stick{
+	height: 12px;
+	position: relative;
+	top: 100px;
+}
+.innerstick{
+	width: 383px;
+	height: 12px;
+	background:url('../images/stick1.png');
+	position: absolute;
+	float: left;
+	display: block;
+}
+.stick-arrow{
+	width: 383px;
+	height: 0px;
+	margin: 5px 0px;
+	float: right;
+	border-bottom: 2px dotted blue;
+	
+}
+.pow-wrapper{
+	width: 170px;
+	height: 300px;
+	background-color: pink;
+	position: relative;
+	overflow: hidden;
+	float: right;
+}
+.pow-bg{
+	width: 170px;
+	height: 300px;
+	background-color: red;
+	position: absolute;
+	top:20px;
+}
+.score-wrp{
+	float: left;
+	background-color: #ff3333;
+	position: relative;
+	width: 240px;
+	height: 500px;
+	margin-right: 10px;
+}
+.score-main{
+	border: 3px solid red;
+	width: 90%;
+	margin: 30px auto;
+	height: 200px;
+	background-color: green;
+}
+.score-block{
+	margin: 10px auto;
+	width: 100%;
+	background-color: orange;
+	height: 30px;
+	text-align: center;
+	line-height: 20px;
+	font-family: sans-serif;
+}
+
+
